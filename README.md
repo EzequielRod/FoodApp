@@ -1,13 +1,63 @@
-# FoodApp 🍤🍳<img src="https://github.com/ABSphreak/ABSphreak/blob/master/gifs/Hi.gif" width="30px">
-This is a small website where you can consult and create healthy cooking recipes👨‍🍳🤸🧘‍♂️.
+# Food APP
 
-It is elaborated with a theme from Ratatuille a pixar movie, 🐀👩‍🍳 On the first page we have a button, which takes us to the second route where we can filter and consult the API recipes 👨‍💻 where they are displayed in cards, name, image, score, and ingredients in addition to having paged to change the recipes 😁 In the following route we have the option to add a new recipe, so I made a form to have the inputs to fill the database with steps, ingredients, name and diet to which the new recipe will belong
+En esta aplicación puedes ver distintas recetas de comida junto con información relevante de las mismas, utilizando la api externa [spoonacular](https://spoonacular.com/food-api) y a partir de ella poder:
 
-## So we will all be a Chefcito like Ratatouille🐀👩‍🍳
+  - Buscar recetas
+  - Filtrarlos / Ordenarlos
+  - Crear nuevas recetas propias
+  
+  
+  
+  ![Captura de pantalla 2021-07-01 a la(s) 2 52 37 a  m](https://user-images.githubusercontent.com/75697707/124087296-7cede300-da17-11eb-9a6c-843e8aa9b8df.png)         ![Captura de pantalla 2021-07-01 a la(s) 1 27 57 a  m](https://user-images.githubusercontent.com/75697707/124086464-b07c3d80-da16-11eb-9b76-670a2f94291e.png)
 
-# Instructions for download and execution💻
 
-### This project can be downloaded zip and used an npm install to download its dependencies and npm start to start it in the cd api and cd client folders 🤓
 
-![Screenshot_1](https://user-images.githubusercontent.com/85253719/140990109-f501847b-2e84-4561-a4cb-b30b824f5d79.jpg)
-![Screenshot_2](https://user-images.githubusercontent.com/85253719/140990116-d9b0419e-f003-4cbe-af11-ff87e1994122.jpg)
+
+## Comenzando 🚀
+
+_Estas instrucciones te permitirán obtener una copia del proyecto en funcionamiento en tu máquina local para propósitos de desarrollo y pruebas._
+
+__IMPORTANTE__: Para poder utilizar esta API es necesario crear una cuenta para obtener una API Key que deberá ser incluida en el archivo .env
+
+El archivo `.env` (carpeta api) debe tener la siguiente forma:
+
+```
+DB_USER=usuariodepostgres
+DB_PASSWORD=passwordDePostgres
+DB_HOST=localhost
+API_KEY=tu API key
+DB_NAME=dogs
+PORT=3001
+```
+Adicionalmente será necesario que crees desde psql una base de datos llamada dogs
+
+### Instalación 🔧
+
+1. Clona el repo
+   ```sh
+   git clone https://github.com/viyigutierrez/FoodApp
+   ```
+2. Instala los paquetes
+   ```sh
+   npm install
+   ```
+3. Inicia tanto el back (carpeta api), como el front (carpeta client)
+   ```sh
+   npm start
+   ```
+  
+## Construido con 🛠️
+
+- [ ] React
+- [ ] Redux
+- [ ] Express
+- [ ] Sequelize - Postgres
+
+
+## Licencia 📄
+
+Este proyecto fue creado con fines educativos, no tiene fines de lucro - sientete libre de usarlo
+
+
+
+

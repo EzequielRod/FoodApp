@@ -1,0 +1,24 @@
+.grid{
+    width: 80vw;
+    height: auto;
+    margin-left: 10vw;
+    margin-top: 1em;;
+    background-image: url(https://i.pinimg.com/originals/f1/25/67/f125672c94224b1ebf6899d0c47cb346.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+} 
+.filter{
+    font-size: 3rem;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    display: inline;
+    color: rgb(51, 52, 56);
+    text-align: center;
+    background-color: white;
+    padding-right: .5em;
+    
+    
+}
+.fondo{
+    background-color: rgb(83, 182, 196);
+}
